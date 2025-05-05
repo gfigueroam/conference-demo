@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: conference-demo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/conference_app #${DB_URL}
+    username: postgres #${DB_USERNAME}
+    password: Welcome #${DB_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+      show-sql: true
+      jdbc:
+        lob:
+          non_contextual_creation:true
+app:
+  version: 1.0.0
