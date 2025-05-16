@@ -9,6 +9,9 @@ public class ConferenceApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConferenceApplication.class, args);
+
+
 	}
+
 
 }
